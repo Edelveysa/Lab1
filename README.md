@@ -1,3 +1,3 @@
 # Lab1
 
-![Image alt](badmeme/1.png)
+![Image alt](/badmeme/1.png)
