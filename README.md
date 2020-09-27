@@ -1,3 +1,3 @@
 # Lab1
 
-![alt text](badmeme/1.png)
+![alt text](badmeme/1.jpg)
