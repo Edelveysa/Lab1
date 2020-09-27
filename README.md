@@ -1,2 +1,3 @@
 # Lab1
-# Today I repay my debt.
+
+![Image alt](https://github.com/Edelveysa/Lab1/raw/master/badmeme/1.png)
