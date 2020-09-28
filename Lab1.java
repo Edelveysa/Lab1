@@ -1,4 +1,5 @@
 class Lab1{
+    
     public static void main(String[] args){
 
         short firstnumber = 7;
