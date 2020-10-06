@@ -1,5 +1,3 @@
-import java.lang.Math;
-
 class Lab1 {
     public static void main(String[] agrs) {
         Matem maths = new Matem();
