@@ -1,18 +1,17 @@
 import java.lang.Math;
 
 class Matem {
-    short startFromShort = 7;
-    final float minFloat = -6.0F;
-    final float maxFloat = 5.0F;
+    short arrayNumber = 7;
+    final float MIN = -6.0F;
+    final float MAX = 5.0F;
 
     short[] arrayShort() {
         short[] d = new short[8];
         for (int i = 0; i < 8; i++) {
-            d[i] = startFromShort;
-            startFromShort += 2;
+            d[i] = arrayNumber;
+            arrayNumber += 2;
 
         }
-        System.out.println();
         return d;
     }
 
@@ -22,7 +21,6 @@ class Matem {
             x[j] = Randomize();
         }
 
-        System.out.println();
         return x;
     }
 
@@ -52,14 +50,14 @@ class Matem {
     void PrintArrayDouble(double[][] d) {
         for (int i = 0; i < d.length; i++) {
             for (int j = 0; j < d[i].length; j++) {
-                System.out.print(String.format("%.5f", d[i][j]) + "\t");
+                System.out.format("%-10.5f", d[i][j]);
             }
             System.out.println();
         }
     }
 
     float Randomize() {
-        return (float) (Math.random() * (minFloat - maxFloat) - minFloat);
+        return (float) (Math.random() * (MIN - MAX) - MIN);
     }
 
     double ScaryMath1(float number) {
