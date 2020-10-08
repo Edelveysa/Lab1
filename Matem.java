@@ -1,7 +1,7 @@
 import java.lang.Math;
 
 class Matem {
-    short arrayNumber = 7;
+    private short arrayNumber = 7;
     private final float MIN = -6.0F;
     private final float MAX = 5.0F;
 
