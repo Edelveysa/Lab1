@@ -2,8 +2,8 @@ import java.lang.Math;
 
 class Matem {
     short arrayNumber = 7;
-    final float MIN = -6.0F;
-    final float MAX = 5.0F;
+    private final float MIN = -6.0F;
+    private final float MAX = 5.0F;
 
     short[] arrayShort() {
         short[] d = new short[8];
