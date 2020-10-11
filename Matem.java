@@ -47,7 +47,7 @@ class Matem {
         return d;
     }
 
-    void PrintArrayDouble(double[][] d) {
+    void printArrayDouble(double[][] d) {
         for (int i = 0; i < d.length; i++) {
             for (int j = 0; j < d[i].length; j++) {
                 System.out.format("%-10.5f", d[i][j]);
@@ -56,19 +56,19 @@ class Matem {
         }
     }
 
-    float Randomize() {
+    float randomize() {
         return (float) (Math.random() * (MIN - MAX) - MIN);
     }
 
-    double ScaryMath1(float number) {
+    double scaryMath1(float number) {
         return Math.atan(Math.sin(Math.tan(Math.log(Math.abs(number)))));
     }
 
-    double ScaryMath2(float number) {
+    double scaryMath2(float number) {
         return Math.cos(Math.tan(Math.pow(number, number / 2)));
     }
 
-    double ScaryMath3(float number) {
+    double scaryMath3(float number) {
         return Math.pow((0.75 + Math.pow(0.75 / ((Math.sin(number)) / (Math.log(Math.abs(number)) - 2) + 1), Math.cos(Math.log(Math.abs(number))))) / (Math.asin(Math.pow(Math.cos(Math.cos(number + 1)), 2))), 3);
     }
 }
