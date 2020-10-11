@@ -18,7 +18,7 @@ class Matem {
     float[] arrayFloat() {
         float[] x = new float[14];
         for (int j = 0; j < x.length; j++) {
-            x[j] = Randomize();
+            x[j] = randomize();
         }
 
         return x;
@@ -30,16 +30,16 @@ class Matem {
             for (int j = 0; j < d[i].length; j++) {
                 switch (arrayShort[i]) {
                     case 7:
-                        d[i][j] = ScaryMath1(arrayFloat[j]);
+                        d[i][j] = scaryMath1(arrayFloat[j]);
                         break;
                     case 15:
                     case 17:
                     case 19:
                     case 21:
-                        d[i][j] = ScaryMath2(arrayFloat[j]);
+                        d[i][j] = scaryMath2(arrayFloat[j]);
                         break;
                     default:
-                        d[i][j] = ScaryMath3(arrayFloat[j]);
+                        d[i][j] = scaryMath3(arrayFloat[j]);
                         break;
                 }
             }
