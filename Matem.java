@@ -4,10 +4,13 @@ class Matem {
     private short arrayNumber = 7;
     private final float MIN = -6.0F;
     private final float MAX = 5.0F;
+    private final a = 8;
+    private final b = 14;
+   
 
     short[] arrayShort() {
         short[] d = new short[8];
-        for (int i = 0; i < 8; i++) {
+        for (int i = 0; i < d.length; i++) {
             d[i] = arrayNumber;
             arrayNumber += 2;
 
