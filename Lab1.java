@@ -4,6 +4,6 @@ class Lab1 {
         short[] arrayShort = maths.arrayShort();
         float[] arrayFloat = maths.arrayFloat();
         double[][] arrayDouble = maths.arrayDouble(arrayShort, arrayFloat);
-        maths.PrintArrayDouble(arrayDouble);
+        maths.printArrayDouble(arrayDouble);
     }
 }
